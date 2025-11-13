@@ -3,7 +3,7 @@
   "name": "Media Link Collector",
   "version": "1.0.0",
   "description": "Collect media-related links from pages and present them in an action popup.",
-  "permissions": ["tabs", "activeTab", "scripting"],
+  "permissions": ["tabs", "activeTab", "scripting", "clipboardWrite", "storage"],
   "background": {
     "service_worker": "service_worker.js"
   },
